@@ -1,5 +1,4 @@
 import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
 
 export default function RootLayout({
   children,
@@ -8,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa" dir="rtl">
-      <body suppressHydrationWarning={true}>
+      <body>
         <ToastContainer />
         {children}
       </body>
