@@ -2,7 +2,7 @@ import HomePage from "@/components/templates/HomePage/HomePage";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Login Page",
+  title: "Home Page",
 };
 
 export default function Home() {
